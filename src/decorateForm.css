@@ -1,0 +1,213 @@
+.root {
+    -fx-background-radius: 20;
+}
+
+.top {
+    -fx-background-radius: 20 20 0 0;
+    -fx-background-color: #488b8f;
+}
+
+.left {
+    -fx-background-radius: 0 0 0 20;
+    -fx-background-color: #add2c9; /*#eee*/
+}
+
+.setFont {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 14px;
+}
+
+.leftSideButton {
+    -fx-background-color: #add2c9;
+    -fx-border-width: none;
+    -fx-text-fill: white;
+    -fx-padding: 16px 32px;
+    -fx-cursor: hand;
+    -fx-min-width: 190;
+}
+
+.leftSideButton:hover {
+    -fx-background-color: rgb(114, 183, 183);
+}
+
+.leftSideButton:focused{
+    -fx-background-color: rgb(114, 183, 183);
+    -fx-border-width: 0 0 0 5;
+    -fx-border-color: white;
+    -fx-max-width: 190;
+}
+
+.image {
+    -fx-border-radius: 1px;
+    -fx-border-color: gray;
+    -fx-border-style: dashed;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.75), 10, 0, 0, 0);
+}
+
+.username {
+    -fx-font-size: 12px;
+    -fx-font-family: "Helvetica";
+}
+
+
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+    -fx-font-family: "Trajan Pro 3";
+    -fx-font-size: 14px;
+    -fx-min-height: 16px;
+}
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+
+#mailIcon {
+    -fx-background-image:url("mail-64.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+}
+
+#lockIcon {
+    -fx-background-image:url("lock-64.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+}
+
+/*header*/
+.table-view .column-header .label {
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: #4d606e;
+    -fx-text-alignment: center;
+    -fx-font-size: 14px;
+    -fx-min-height: 18px;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #3fbac2;
+}
+
+.table-row-cell .text {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 14px;
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-background-radius: 30px;
+    -fx-background-color: #f4f4f4;
+    -fx-text-fill: #1fab89; /*#23a393   84a1be*/
+    -fx-border-color: #1fab89;
+    -fx-border-width: 2px;
+    -fx-border-radius: 30px;
+    -fx-font-size: 15px;
+    -fx-min-width: 80px;
+    -fx-min-height: 40px;
+    -fx-text-alignment: center;
+    -fx-font-style: normal;
+    -fx-font-family: "Roboto Lt";
+}
+
+.searchBar {
+    -fx-font-size: 15px;
+    -fx-padding: 8px 15px;
+    -fx-text-fill: rgb(51, 51, 51);
+    -fx-border-color: rgb(204, 204, 204);
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-radius: 40px;
+    -fx-background-radius: 40px;
+    -fx-background-color: rgb(245, 245, 245);
+    -fx-text-alignment: center;
+    -fx-end-margin: 8px 0.5vw 8px 0px;
+}
+
+.searchBar:hover {
+    -fx-border-color: #283c63;
+    -fx-background-color: whitesmoke;
+    -fx-text-fill: #283c63;
+    -fx-prompt-text-fill: #283c63;
+}
+
+.searchBar:focused {
+    -fx-border-color: #283c63;
+    -fx-background-color: whitesmoke;
+    -fx-text-fill: #283c63;
+}
+
+.button:hover {
+    -fx-background-color: #1fab89; /*283c63  3fc1c9*/
+    -fx-text-fill: #f4f4f4;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.35), 10, 0, 0, 0);
+}
+
+.loginInterface {
+    -fx-padding: 40px;
+}
+
+
+
+.logTxt {
+    -fx-background-radius: 30px;
+    -fx-padding: 7px;
+    -fx-border-radius: 30px;
+    -fx-border-width: 2px;
+    -fx-border-color: #8bd5cb;
+    -fx-alignment: center;
+    -fx-font-size: 16px;
+    -fx-font-family: "Helvetica";
+    -fx-font-weight: bold;
+    -fx-text-fill: #974949;
+}
+
+.logTxt:focused {
+    -fx-border-color: #8bd5cb;
+    -fx-effect: dropshadow(three-pass-box, rgba(197, 104, 104, 0.9), 15, 0, 0, 0);
+}
+
+.logTxt:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(197, 104, 104, 0.9), 15, 0, 0, 0);
+}
+
+.loginBtn {
+    -fx-border-radius: 5px;
+    -fx-border-width: 0px;
+    -fx-background-radius: 5px;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Calibri";
+    -fx-background-color: #57b846;
+    -fx-cursor: hand;
+    -fx-pref-width: 120px;
+}
+
+.loginBtn:hover {
+    -fx-background-color: #333;
+}
+
+.check-box .box {
+    -fx-background-color: #8bd5cb;
+    -fx-border-color: grey;
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+    -fx-pref-height: 20px;
+    -fx-pref-width: 20px;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.check-box:selected .box {
+    -fx-background-color: rgb(197, 104, 104);
+}
+
+.check-box .text {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 13px;
+}
