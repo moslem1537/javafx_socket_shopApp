@@ -69,8 +69,5 @@ public class Admin {
         this.picture = picture;
     }
 
-    @Override
-    public String toString() {
-        return firstName + " " + lastName + " " + email + "\n";
-    }
+ 
 }

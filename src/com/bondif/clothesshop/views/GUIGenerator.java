@@ -42,10 +42,10 @@ public class GUIGenerator {
 
   
 
-        Button dashboardBtn = getSideBarButton(GUITools.getImage("resources/icons/home-page-56.png"), "Tableau de bord", sideBar.getMinWidth());
-        Button productsBtn = getSideBarButton(GUITools.getImage("resources/icons/product-56.png"), "Produits", sideBar.getMinWidth());
-        Button sellsBtn = getSideBarButton(GUITools.getImage("resources/icons/sell-56.png"), "mes commandes", sideBar.getMinWidth());
-        Button logOutBtn = getSideBarButton(GUITools.getImage("resources/icons/log-out-56.png"), "Se déconnecter", sideBar.getMinWidth());
+        Button dashboardBtn = getSideBarButton(GUITools.getImage("resources/icons/home-page-56.png"), "Dashboard", sideBar.getMinWidth());
+        Button productsBtn = getSideBarButton(GUITools.getImage("resources/icons/product-56.png"), "Products", sideBar.getMinWidth());
+        Button sellsBtn = getSideBarButton(GUITools.getImage("resources/icons/sell-56.png"), "my orders", sideBar.getMinWidth());
+        Button logOutBtn = getSideBarButton(GUITools.getImage("resources/icons/log-out-56.png"), "Sign out", sideBar.getMinWidth());
 
         dashboardBtn.getStyleClass().addAll("leftSideButton", "setFont");
         productsBtn.getStyleClass().addAll("leftSideButton", "setFont");
@@ -189,7 +189,7 @@ public class GUIGenerator {
         });
 
         //App title
-        Text appName = new Text("   Magasin de vêtements");
+        Text appName = new Text("   Clothing store");
         appName.setFill(Color.WHITE);
         appName.setFont(new Font("Century Gothic", 20));
 

@@ -6,7 +6,6 @@ import com.bondif.clothesshop.core.ProductDaoImpl;
 import com.bondif.clothesshop.models.Product;
 import com.bondif.clothesshop.views.ActionButtonTableCell;
 import com.bondif.clothesshop.views.GUITools;
-import com.bondif.clothesshop.views.utils.ComboBoxAutoComplete;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.geometry.HPos;
